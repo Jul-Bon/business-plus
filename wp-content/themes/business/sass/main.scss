@@ -1,0 +1,23 @@
+@import "normalize/import-now";
+
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'base/typography';
+@import 'base/base';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/min-header';
+
+@import 'pages/home';
+@import 'pages/blog';
+@import 'pages/single';
+@import 'pages/about';
+@import 'pages/contacts';
+
+
+@import 'components/buttons';
+@import 'components/footer-form';
+@import 'components/nav-blog';

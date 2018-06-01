@@ -1,0 +1,22 @@
+aside.widget-area {
+    float: left;
+    width: 350px;
+    padding-left: 30px;
+    margin: 50px 20px;
+    box-sizing: border-box;
+    border-right: 1px solid $slider-nav-color;
+    .widget {
+        padding: 10px;
+    }
+    ul {
+        @include list-reset;
+        a{
+            @include link;
+            color: $main-font-color;
+            &:hover {
+                text-decoration: underline;
+                color: $caption-color;
+            }
+        }
+    }
+}

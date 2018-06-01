@@ -1,0 +1,50 @@
+.single_post {
+    .sfsiaftrpstwpr {
+        margin-top: 50px;
+    }
+    .entry-title {
+        margin-top: 0;
+    }
+}
+.single {
+    .headline {
+        margin: 50px 0 0;
+        span {
+            margin: 0;
+        }
+    }
+}
+
+
+.author_block {
+    clear: both;
+    display: block;
+    .author_big_picture {
+        max-width: 170px;
+        float: left;
+    }
+    .about_author {
+        max-width: 750px;
+        padding: 30px;
+        box-sizing: border-box;
+        float: right;
+        background-color: $second-accent-color;
+        h4 {
+            margin: 0;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.nav-next, .nav-previous {
+    a {
+        text-decoration: none;
+        color: $main-font-color;
+        font-weight: 800;
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}

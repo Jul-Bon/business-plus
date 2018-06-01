@@ -1,0 +1,58 @@
+.button {
+    @include link;
+    @include transition;
+    color: $accent-color;
+    font-family: $caption-font;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 34px;
+    border: 2px solid $accent-color;
+    box-sizing: border-box;
+
+    &:hover {
+        color: $main-font-color;
+        border: 2px solid $main-font-color;
+    }
+
+    &:focus {
+        color: $main-font-color;
+        border: 2px solid $main-font-color;
+    }
+
+    &:visited {
+        color: $accent-color;
+    }
+}
+
+.button.welcome_button {
+    color: $caption-color;
+    background-color: $accent-color;
+
+    &:visited {
+        color: $caption-color;
+    }
+}
+
+.button-view-more {
+    margin-top: 10px;
+}
+
+.site-footer {
+    .wpcf7-form {
+        input.wpcf7-submit {
+            width: 35%;
+            margin-top: 10px;
+            padding: 20px;
+            border: 2px solid $accent-color;
+            color: $accent-color;
+            font-family: $caption-font;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.min_bunner {
+    height: 50vh;
+}
+
+.blog_menu {
+    padding: 0 0 35px;
+    text-align: center;
+    @media screen and(min-width: 767px) {
+        padding: 25px 0 35px;
+        text-align: inherit;
+    }
+}
